@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}  
+body{
+    background-color: #acbccc;
+
+}
+  table{
+    background-color: #fff;
+   
+    border-collapse: separate;
+    border-spacing: 5px;
+  }
+  
+  header , .footer {
+    background-color: #acbccc;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    height: 100px;
+  }
+  
+  form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #444;
+  }
+  .info{
+    text-align: right;
+}
+.button-contacto {
+  color: #ffffff;
+  font-size: 100%;
+  padding: 9px;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  text-shadow: 1px 1px 3px #000000;
+  border: solid #080808 2px;
+  background: #e33c08;
+}
+.button-contacto:hover {
+  background: #ccc8c5;
+}.menu{
+  background-color: white;
+  width: 100%;
+}
+.menu ul{
+  float: right;
+  margin-right: 10px;
+
+}
+.menu ul li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 5px;
+}
+.menu ul li a{
+  color: #10365f;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+li a.active,li  a:hover{
+  background: #e33c08;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: #10365f;
+  float: right;
+  line-height: 70px;
+  cursor: pointer;
+  margin-right: 40px;
+  display: none;
+}
+#check{
+  display: none;
+}
